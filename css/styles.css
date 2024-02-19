@@ -1,4 +1,4 @@
-/*Global selectors */
+/*#region global-selectors*/
 *,
 *::before *::after {
   box-sizing: border-box;
@@ -56,7 +56,9 @@ a {
   text-decoration: none;
 }
 
-/* Header */
+/*#endregion global-selectors */
+
+/*#region header*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -132,7 +134,9 @@ a {
   padding: 24px 0;
 }
 
-/* Section 1: Hero */
+/*#endregion header */
+
+/*#region section-1-hero*/
 .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -173,7 +177,9 @@ a {
   background-color: #404bbf;
 }
 
-/* Section 2: Content */
+/*#endregion section-1-hero */
+
+/*#region section-2-content*/
 .content-header {
   font-weight: 500;
   font-size: 20px;
@@ -219,7 +225,9 @@ a {
   outline-offset: 0;
 }
 
-/* Section 3: Team */
+/*#endregion section-2-content */
+
+/*#region section-3-team*/
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -268,7 +276,9 @@ a {
   padding: 32px 0;
 }
 
-/* Section 4: Portfolio */
+/*#endregion section-3-team */
+
+/*#region section-4-portfolio*/
 .portfolio-header {
   font-size: 36px;
   line-height: 1.11;
@@ -318,7 +328,9 @@ a {
   border-top: none;
 }
 
-/* Footer */
+/*#endregion section-4-portfolio */
+
+/*#region footer*/
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -346,3 +358,5 @@ a {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+/*#endregion footer */
