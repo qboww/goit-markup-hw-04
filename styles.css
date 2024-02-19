@@ -81,10 +81,12 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link-portfolio::after {
+.nav-link-studio::after {
   content: "";
   position: absolute;
   left: 0;
@@ -160,7 +162,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .motto-header {
@@ -191,6 +192,7 @@ a {
   border-radius: 4px;
   margin: 0 auto;
   padding: 16px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
